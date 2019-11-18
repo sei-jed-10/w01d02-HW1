@@ -17,15 +17,15 @@ c = a;
 - What is `a`?
 ```
 a is ...
-```
+Number
 - What is `b`?
 ```
 b is ...
-```
+String
 - What is `c`?
 ```
 c is ...
-```
+Boolean
 
 #### Exercise 2:
 Output a console log `The sum of 5 and 10 is 15` where the values for 5 and 10 are saved to variables, and where 15 comes from those variables being summed.
