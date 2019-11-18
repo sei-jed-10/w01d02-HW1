@@ -36,7 +36,6 @@ const num2 = 10;
 #### Your solution here:
  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
-// your solution here 
 num3=num1+num2;
 ```
 
@@ -47,7 +46,6 @@ Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to comple
 
 #### Your solution here:
 ```js
-// your solution here 
 console.log("The sum of "+num1+" and "+num2+" is "+num3);
 ```
 
