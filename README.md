@@ -16,15 +16,15 @@ c = a;
 #### Your solution here:
 - What is `a`?
 ```
-a is ...
+a is 'bongos'
 ```
 - What is `b`?
 ```
-b is ...
+b is true
 ```
 - What is `c`?
 ```
-c is ...
+c is 1
 ```
 
 #### Exercise 2:
@@ -37,6 +37,7 @@ const num2 = 10;
  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
 // your solution here
+const num3 = num1 + num2
 ```
 
 #### Exercise 3:
@@ -47,7 +48,7 @@ Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to comple
 #### Your solution here:
 ```js
 // your solution here 
-console.log()
+console.log(num3 = num1 + num2)
 ```
 
 
@@ -67,14 +68,14 @@ h) 9 !== 8 + 1
 #### Your solution here:
  Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+a) false
+b)  true
+c)false
+d) false
+e) false
+f) false
+g) true
+h) false
 ```
 
 ## Data Types and Variables
@@ -88,6 +89,10 @@ h)
  Write your javascript solution below
 ```js
 // your answer here
+let bill = 10.25 + 3.99 + 7.15
+let tip = bill * 0.15
+let total = bill + tip
+console.log (total)
 ```
 
 #### Exercise 2:
@@ -112,6 +117,18 @@ Assign the resulting string to a variable called Quotes
  Write your javascript solution below
 ```js
 // your answer here
+var quote1 = "Success is no accident. It is "
+var quote2 = " and most of all, "
+var quote3 = " of what you are doing or learning to do."
+
+var adjective1 = "Hard Work"
+var adjective2 = "Perseverance"
+var adjective3 = "Learning"
+var adjective4 = "Studying"
+var adjective5 = "Sacrifice"
+var adjective6 = "Love"
+
+console.log (quote1 + adjective1 + ", " + adjective2 + ", " +  adjective3 + ", " +  adjective4 + ", " + adjective5 + quote2 + adjective6 + quote3)
 ```
 
 #### Exercise 3:
@@ -139,6 +156,13 @@ Hint: Use the % (modulo) operator to determine if a number is even or odd.
  Write your javascript solution below
 ```js
 // your answer here
+let num = 2
+
+if (num % 2 == 0) {
+    console.log ("Number " + num + " is even!")
+} else {
+    console.log ("Number " + num + " is odd!")
+}
 ```
 
 #### Exercise2:
@@ -155,6 +179,29 @@ ex If musicians equals 3, then "trio" should be printed to the console.
  Write your javascript solution below
 ```js
 // your answer here
+let num = 0
+let musicians = ""
+
+if (num == 0) {
+    musicians = musicians + "Not a group!"
+}
+if (num == 1) {
+    musicians = musicians + "Solo"
+}
+if (num == 2) {
+    musicians = musicians + "Duet"
+}
+if (num == 3) {
+    musicians = musicians + "Trio"
+}
+if (num == 4) {
+    musicians = musicians + "Quartet"
+}
+if (num >= 5) {
+    musicians = musicians + "This is a large group!"
+}
+
+console.log (musicians)
 ```
 
 
