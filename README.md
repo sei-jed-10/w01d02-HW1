@@ -37,9 +37,10 @@ const num2 = 10;
  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
 // your solution here
-```
+
 var num3 = num1 + num2;
 console.log (num3);
+```
 
 #### Exercise 3:
 Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
@@ -90,12 +91,12 @@ h) false
  Write your javascript solution below
 ```js
 // your answer here
-```
+
 var bill = 10.25 + 3.99 + 7.15;
 var tip = bill * 0.15;
 var total = bill + tip;
 console.log(total);
-
+```
 #### Exercise 2:
 Use the adjective variables below to fill in the blanks and complete the following message.<br/>
 "Success is no accident. It is _________, _________, _________, _________, _________ and most of all, _________ of what you are doing or learning to do."
@@ -118,10 +119,10 @@ Assign the resulting string to a variable called Quotes
  Write your javascript solution below
 ```js
 // your answer here
-```
+
 var Quotes = "Success is no accident. It is " + adjective1 + ", " + adjective2 + ", " + adjective3 + ", " + adjective4 + ", " + adjective5 + " " + "and most of all, " + adjective6 + " " + "of what you are doing or learning to do.";
 console.log(Quotes);
-
+```
 #### Exercise 3:
 Here is a message:<br/>
 "Hi, my name is Sara. I love cats. In my spare time, I like to watch movies"
@@ -133,12 +134,12 @@ Here is a message:<br/>
  Write your javascript solution below
 ```js
 // your answer here
-```
+
 var firstName = Hatim;
 var interest = cats;
 var hobby = Netflix;
 console.log("Hi, my name is " + firstName + ". I love " + interest + ". In my spare time, I like to watch " + hobby + ".");
-
+```
 ## Conditionals
 
 #### Exercise 1:
@@ -151,7 +152,7 @@ Hint: Use the % (modulo) operator to determine if a number is even or odd.
  Write your javascript solution below
 ```js
 // your answer here
-```
+
 var num = 2;
 if (num % 2 === 0) {
 console.log("even");
@@ -159,6 +160,7 @@ console.log("even");
 else {
 console.log ("odd");
 }
+```
 #### Exercise2:
 Write a series of conditional statements that:
 1. Prints "not a group" if musicians is less than or equal to 0
@@ -173,7 +175,7 @@ ex If musicians equals 3, then "trio" should be printed to the console.
  Write your javascript solution below
 ```js
 // your answer here
-```
+
 var groupNum = 5;
 if (groupNum <= 0) {
 console.log("not a group");
@@ -193,20 +195,21 @@ console.log("quartet");
 else {
 console.log("This is a large group");
 }
+```
 
 #### BONUS
 1. Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
 ```js
 // your answer here
-```
+
 for (var i = 1; i >= 0 && i <= 100; i++) {
 console.log(i);
 }
-
+```
 2. Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
 // your answer here
-```
+
 function count(num) {
 while (num >= 0 && num <= 100) {
   console.log(num);
@@ -215,6 +218,7 @@ while (num >= 0 && num <= 100) {
 }
 
 count(50);
+```
 
 # Additional Resources
 
