@@ -88,7 +88,6 @@ h) false
 #### Your solution here:
  Write your javascript solution below
 ```js
-// your answer here
 let bill=10.25+3.99+7.15;
 let tip=bill*0.15;
 let total=bill+tip;
@@ -116,7 +115,6 @@ Assign the resulting string to a variable called Quotes
 #### Your solution here:
  Write your javascript solution below
 ```js
-// your answer here
 let Quotes="Success is no accident. It is "+adjective1+", "+adjective2+", "+adjective3+", "+adjective4+", "+adjective5+" and most of all, "+ adjective6+" of what you are doing or learning to do.";
 ```
 
@@ -130,7 +128,6 @@ Here is a message:<br/>
 #### Your solution here:
  Write your javascript solution below
 ```js
-// your answer here
 var name="Sarah";
 var interest="coffee";
 var hobby="do nothing."
@@ -150,7 +147,6 @@ Hint: Use the % (modulo) operator to determine if a number is even or odd.
 #### Your solution here:
  Write your javascript solution below
 ```js
-// your answer here
 if (number%2==0){
     console.log("even");
 }
@@ -172,7 +168,6 @@ ex If musicians equals 3, then "trio" should be printed to the console.
 #### Your solution here:
  Write your javascript solution below
 ```js
-// your answer here
 if(musicians<=0){
     console.log("not a group");
 }
@@ -197,7 +192,6 @@ else{
 #### BONUS
 1. Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
 ```js
-// your answer here
 let musicians=0;
 while(musicians<=100){
 
@@ -224,7 +218,6 @@ musicians+=1;
 ```
 2. Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
-// your answer here
 function checkMusiciansCount(numberOfMusicians){
     var musiciansCount=0;
     while(musiciansCount<=numberOfMusicians){
