@@ -130,7 +130,7 @@ Here is a message:<br/>
 ```js
 var name="Sarah";
 var interest="coffee";
-var hobby="do nothing."
+var hobby="sleep."
 var message="Hi, my name is "+name+". I love "+ interest+". In my spare time, I like to "+hobby;
 console.log(message);
 
