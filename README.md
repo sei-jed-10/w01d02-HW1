@@ -16,15 +16,15 @@ c = a;
 #### Your solution here:
 - What is `a`?
 ```
-a is ...
+a is "bongos"
 ```
 - What is `b`?
 ```
-b is ...
+b is true
 ```
 - What is `c`?
 ```
-c is ...
+c is 1
 ```
 
 #### Exercise 2:
@@ -37,7 +37,8 @@ const num2 = 10;
  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
 // your solution here
-```
+num3 = num1 + num2;
+console.log(num3);
 
 #### Exercise 3:
 Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
@@ -67,14 +68,14 @@ h) 9 !== 8 + 1
 #### Your solution here:
  Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+a) false
+b) true 
+c) false 
+d) false
+e) false
+f) false
+g) true
+h) false 
 ```
 
 ## Data Types and Variables
@@ -88,7 +89,10 @@ h)
  Write your javascript solution below
 ```js
 // your answer here
-```
+let bill = 10.25 + 3.99 + 7.15;
+let tip = bill * 0.15;
+let total = bill + tip;
+console.log(total);
 
 #### Exercise 2:
 Use the adjective variables below to fill in the blanks and complete the following message.<br/>
@@ -98,21 +102,23 @@ Use the adjective variables below to fill in the blanks and complete the followi
 2. Use the adjective1, adjective2, adjective3, adjective4 adjective5 and adjective6 variables to set the Quotes variable to the message:
 "Success is no accident. It is Hard Work, Perseverance, Learning, Studying, Sacrifice and most of all, Love of what you are doing or learning to do."
 
-```
+
 var adjective1 = "Hard Work";
 var adjective2 = "Perseverance";
 var adjective3 = "Learning";
 var adjective4 = "Studying";
 var adjective5 = "Sacrifice";
 var adjective6 = "Love";
-```
-Assign the resulting string to a variable called Quotes
 
-#### Your solution here:
- Write your javascript solution below
-```js
+// Assign the resulting string to a variable called Quotes
+
+// #### Your solution here:
+//  Write your javascript solution below
 // your answer here
-```
+let Quotes = "Success is no accident. It is " +adjective1 + ", " +adjective2 + ", " +adjective3 + ", " +adjective4 + ", " +adjective5 + "and most of all, " + adjective6 + " of what you are doing or learning to do.";
+
+// let bla = str.concat("Success is no accident. It is ", adjective1, ", " , adjective2, ", " , adjective3, ", " , adjective4, ", " , adjective4, ", " , adjective6, " of what you are doing or learning to do.");
+
 
 #### Exercise 3:
 Here is a message:<br/>
@@ -126,6 +132,11 @@ Here is a message:<br/>
 ```js
 // your answer here
 ```
+let firstName = "Sara. ";
+let interest = "I love cats. ";
+let hoppy = "I like to watch movies";
+let message = "Hi, my name is ".concat(firstName,interest, "In my spare time, ",hoppy );
+console.log(message);
 
 ## Conditionals
 
@@ -139,7 +150,11 @@ Hint: Use the % (modulo) operator to determine if a number is even or odd.
  Write your javascript solution below
 ```js
 // your answer here
-```
+if(number % 2 = 0){
+    console.log("even"); 
+} else {
+    console.log("odd");
+}
 
 #### Exercise2:
 Write a series of conditional statements that:
@@ -153,9 +168,21 @@ ex If musicians equals 3, then "trio" should be printed to the console.
 
 #### Your solution here:
  Write your javascript solution below
-```js
+js
 // your answer here
-```
+if (musicians <= 0) {
+    console.log("not a group");
+} else if (musicians == 1) {
+    console.log("solo");
+} else if (musicians == 2) {
+    console.log("duet");
+} else if (musicians == 3) {
+    console.log("trio");
+} else if (musicians == 4) {
+    console.log("quartet");
+} else if (musicians > 4) {
+    console.log("this is a large group");
+}
 
 
 #### BONUS
