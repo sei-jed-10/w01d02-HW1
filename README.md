@@ -15,16 +15,17 @@ c = a;
 
 #### Your solution here:
 - What is `a`?
+
 ```
-a is ...
+a is ... 'bongos'
 ```
 - What is `b`?
 ```
-b is ...
+b is ... true
 ```
 - What is `c`?
 ```
-c is ...
+c is ... 'bongos'
 ```
 
 #### Exercise 2:
@@ -36,8 +37,8 @@ const num2 = 10;
 #### Your solution here:
  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
-// your solution here
-```
+var num3 = num1 + num2 
+console.log(`The sum of 5 and 10 is ` + num3)
 
 #### Exercise 3:
 Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
@@ -46,8 +47,8 @@ Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to comple
 
 #### Your solution here:
 ```js
-// your solution here 
-console.log()
+
+console.log("The sum of " + num1 +  " and " + num2 + " is " + num3) ;
 ```
 
 
@@ -67,14 +68,14 @@ h) 9 !== 8 + 1
 #### Your solution here:
  Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+a) false 
+b) true
+c) false
+d) false
+e) false
+f) false
+g) true
+h) false
 ```
 
 ## Data Types and Variables
@@ -87,7 +88,10 @@ h)
 #### Your solution here:
  Write your javascript solution below
 ```js
-// your answer here
+var bill =10.25 + 3.99 + 7.15 ;
+var tip = bill * 0.15 ;
+var total = tip + bill ;
+console.log(total) ;
 ```
 
 #### Exercise 2:
@@ -111,7 +115,8 @@ Assign the resulting string to a variable called Quotes
 #### Your solution here:
  Write your javascript solution below
 ```js
-// your answer here
+var Quotes = "" ;
+console.log("Success is no accident. It is " + adjective1 + "," + adjective2 + "," + adjective3 + "," + adjective4 + "," +  adjective5 + " and most of all, " + adjective6 + " of what you are doing or learning to do.")
 ```
 
 #### Exercise 3:
@@ -124,7 +129,11 @@ Here is a message:<br/>
 #### Your solution here:
  Write your javascript solution below
 ```js
-// your answer here
+var firstName = "Safwan" ;
+var interest = " I like watching movies " ;
+var hobby = " coding " ;
+var message ="Hi, my name is ".concat(firstName) .concat(interest) +".And also I like".concat(hobby)  ;
+console.log(message) ;
 ```
 
 ## Conditionals
@@ -138,7 +147,11 @@ Hint: Use the % (modulo) operator to determine if a number is even or odd.
 #### Your solution here:
  Write your javascript solution below
 ```js
-// your answer here
+var num = 2 ;
+if(num%2 === 0){
+    console.log("even")
+} else
+console.log("odd")  ;
 ```
 
 #### Exercise2:
@@ -154,18 +167,47 @@ ex If musicians equals 3, then "trio" should be printed to the console.
 #### Your solution here:
  Write your javascript solution below
 ```js
-// your answer here
+var musicians = 4 ;
+if (musicians <=0 ){
+    console.log("not a group")
+}else if (musicians == 1){
+    console.log("solo")
+
+}else if (musicians == 2){
+
+    console.log("duet")
+
+}else if (musicians == 3){
+        console.log("trio")
+
+}else if (musicians == 4){
+
+        console.log("quartet")
+} else {
+            console.log("this is a large group")
+
+}  ;
 ```
 
 
 #### BONUS
 1. Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
 ```js
-// your answer here
+for(i = 0 ; i <100 ; i ++)
+{
+
+}
 ```
 2. Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
-// your answer here
+function loopI(x){
+    for(i = 0 ; i <4 ; i ++)
+{ 
+console.log(x);
+}
+}
+loopI(2);
+
 ```
 
 # Additional Resources
