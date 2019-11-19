@@ -16,15 +16,14 @@ c = a;
 #### Your solution here:
 - What is `a`?
 ```
-a is ...
+a is  bongos
 ```
 - What is `b`?
 ```
-b is ...
-```
+b is  true
 - What is `c`?
 ```
-c is ...
+c is 1
 ```
 
 #### Exercise 2:
@@ -33,10 +32,10 @@ Output a console log `The sum of 5 and 10 is 15` where the values for 5 and 10 a
 const num1 = 5;
 const num2 = 10;
 ```
-#### Your solution here:
+#### Your solution here: 5 will saved in num1, 10 in num2 and 15 need to decaler new variable. 
  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
-// your solution here
+// your solution here  const num3 = num1+num2;
 ```
 
 #### Exercise 3:
@@ -44,10 +43,11 @@ Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to comple
 
 >The sum of 5 and 10 is 15
 
-#### Your solution here:
+#### Your solution here: const num1 =5 ; const num2=10;  num3=num1+num2; 
+
 ```js
 // your solution here 
-console.log()
+console.log(num3)
 ```
 
 
@@ -67,14 +67,14 @@ h) 9 !== 8 + 1
 #### Your solution here:
  Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+a) false
+b) True 
+c) false
+d) false
+e) false
+f) false
+g) True
+h) false
 ```
 
 ## Data Types and Variables
@@ -87,6 +87,10 @@ h)
 #### Your solution here:
  Write your javascript solution below
 ```js
+let bill = 10.25+3.99+7.15;
+let tip = bill*%15;
+const total = bill+tip
+ console.log(total);
 // your answer here
 ```
 
@@ -111,6 +115,8 @@ Assign the resulting string to a variable called Quotes
 #### Your solution here:
  Write your javascript solution below
 ```js
+const qoutes = 'Success is no accident. It is' +adjective1+','+adjective2+','+ adjective3+',' +adjective4+',' adjective5+','+ 'and most of all,'+ adjective6+' of what you are doing or learning to do.';
+
 // your answer here
 ```
 
@@ -124,6 +130,11 @@ Here is a message:<br/>
 #### Your solution here:
  Write your javascript solution below
 ```js
+let name = 'Mohammed';
+let intrest= 'I love green tea';
+let hoby= 'I like to watch movies';
+ console.log(name.concat(intrest, hopy));
+
 // your answer here
 ```
 
@@ -137,7 +148,12 @@ Hint: Use the % (modulo) operator to determine if a number is even or odd.
 
 #### Your solution here:
  Write your javascript solution below
-```js
+```js 
+let number=5;
+if(number%2==0){
+    console.log('even');  
+ }else {   console.log('Odd');        
+ }
 // your answer here
 ```
 
@@ -154,6 +170,22 @@ ex If musicians equals 3, then "trio" should be printed to the console.
 #### Your solution here:
  Write your javascript solution below
 ```js
+let musicians = 5;
+if ( musicians<=0){
+   console.log("not a group");  
+
+}else if ( musicians==1){ 
+    console.log("solo");  
+}else if ( musicians==2){ 
+    console.log("duet");  
+} else if ( musicians==3){ 
+    console.log("trio");  
+}else if ( musicians==4){ 
+    console.log("quartet");  
+} else{    
+console.log("this is a large group");  
+}
+
 // your answer here
 ```
 
@@ -161,12 +193,26 @@ ex If musicians equals 3, then "trio" should be printed to the console.
 #### BONUS
 1. Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
 ```js
+
+for(let c =0,c<=100,c++){   
+
+  }
 // your answer here
 ```
 2. Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
+ function Printnumer(s) {
+if(s>0||s<0){     
+for(let c =0,c<=100,c++){   
+
+  }
+ }
+}
+
+
 // your answer here
 ```
+
 
 # Additional Resources
 
