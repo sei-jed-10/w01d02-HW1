@@ -15,16 +15,20 @@ c = a;
 
 #### Your solution here:
 - What is `a`?
+a = b;
 ```
 a is ...
+a = 'bongos'; 
 ```
 - What is `b`?
+b = c;
 ```
 b is ...
+true;
 ```
 - What is `c`?
-```
-c is ...
+```c = a;
+c = 'bongos';
 ```
 
 #### Exercise 2:
@@ -33,9 +37,37 @@ Output a console log `The sum of 5 and 10 is 15` where the values for 5 and 10 a
 const num1 = 5;
 const num2 = 10;
 ```
+
+
+var num1 = 5;
+var num2 = 10;
+
+
+res = num1 + num2;
+console.log("The sum of 5 and 10 is " + res);
+
+
+
+
+
+
 #### Your solution here:
  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
+
+
+var num1 = 5;
+var num2 = 10;
+let num3 = num1 + num2;
+
+res = num3 ;
+console.log("num3 equal " + res);
+
+
+
+
+
+
 // your solution here
 ```
 
@@ -47,7 +79,7 @@ Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to comple
 #### Your solution here:
 ```js
 // your solution here 
-console.log()
+console.log("The sum of 5 and 10 is 15" + res)
 ```
 
 
@@ -67,14 +99,14 @@ h) 9 !== 8 + 1
 #### Your solution here:
  Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+a) false
+b) true
+c) false
+d) false
+e) false
+f) false
+g) true
+h) false
 ```
 
 ## Data Types and Variables
@@ -87,6 +119,24 @@ h)
 #### Your solution here:
  Write your javascript solution below
 ```js
+
+var x= 10.25 ;
+var y= 3.99 ;
+var z= 7.15 ;
+var I= 0.15 ;
+
+bill=  x + y + z ;
+
+console.log("Sum of bill is " +bill);
+
+
+tip= bill * I;
+
+console.log(" Tip is " +tip);
+
+total= bill * tip ;
+
+console.log(" Total is" +total);
 // your answer here
 ```
 
@@ -99,6 +149,7 @@ Use the adjective variables below to fill in the blanks and complete the followi
 "Success is no accident. It is Hard Work, Perseverance, Learning, Studying, Sacrifice and most of all, Love of what you are doing or learning to do."
 
 ```
+
 var adjective1 = "Hard Work";
 var adjective2 = "Perseverance";
 var adjective3 = "Learning";
@@ -113,6 +164,34 @@ Assign the resulting string to a variable called Quotes
 ```js
 // your answer here
 ```
+
+
+ 
+
+
+
+
+
+const adjective1 = 'Hard Work';
+const adjective2 = 'Perseverance';
+const adjective3 = 'Learning';
+const adjective4 = 'Studying';
+const adjective5 = 'Sacrifice';
+const adjective6 = 'Love';
+
+
+
+console.log('it is ' + adjective1 + adjective2  + adjective3  + adjective4 + adjective5 +'and most of all ' + adjective6);
+
+
+
+
+   
+   
+   
+  
+
+
 
 #### Exercise 3:
 Here is a message:<br/>
@@ -143,13 +222,43 @@ Hint: Use the % (modulo) operator to determine if a number is even or odd.
 
 #### Exercise2:
 Write a series of conditional statements that:
-1. Prints "not a group" if musicians is less than or equal to 0
+1. Prints "not a group" if musicians is less than or equal to 0 
 2. Prints "solo" if musicians is equal to 1
 3. Prints "duet" if musicians is equal to 2
 4. Prints "trio" if musicians is equal to 3
 5. Prints "quartet" if musicians is equal to 4
 6. Prints "this is a large group" if musicians is greater than 4
 ex If musicians equals 3, then "trio" should be printed to the console.
+
+
+
+
+
+
+if(musicians<=0) {
+   console.log("not a group " +musicians);
+ }
+
+if(musicians === 1) {
+   console.log("solo" +musicians);
+ }
+if(musicians === 2) {
+   console.log("duet " +musicians);
+ }
+
+ if(musicians === 3) {
+   console.log("trio" +musicians);
+ }
+
+if(musicians === 4){
+  console.log("quartet" +musicians);
+}
+
+else{
+  console.log("this is a large group" );
+  
+}
+
 
 #### Your solution here:
  Write your javascript solution below
