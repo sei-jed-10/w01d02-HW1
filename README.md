@@ -25,6 +25,7 @@ b is A string
 - What is `c`?
 ```
 c is A boolean
+aaa
 ```
 
 #### Exercise 2:
