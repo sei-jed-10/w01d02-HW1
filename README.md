@@ -16,15 +16,15 @@ c = a;
 #### Your solution here:
 - What is `a`?
 ```
-a is ...
+a is bongos
 ```
 - What is `b`?
 ```
-b is ...
+b is true
 ```
 - What is `c`?
 ```
-c is ...
+c is bongos
 ```
 
 #### Exercise 2:
@@ -37,7 +37,7 @@ const num2 = 10;
  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
 // your solution here
-```
+const num3 = "num1 + num2"
 
 #### Exercise 3:
 Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
@@ -47,8 +47,9 @@ Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to comple
 #### Your solution here:
 ```js
 // your solution here 
-console.log()
-```
+{
+console.log("The sum of" + " " + num1 + " " + "and" + " " + num2 + " " + "is" + " " num3);
+}
 
 
 ## Comparisons
@@ -67,14 +68,14 @@ h) 9 !== 8 + 1
 #### Your solution here:
  Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+a) false
+b) true
+c) false
+d) false
+e) false
+f) false
+g) true
+h) true
 ```
 
 ## Data Types and Variables
@@ -88,7 +89,12 @@ h)
  Write your javascript solution below
 ```js
 // your answer here
-```
+
+var bill = 10.25 + 3.99 + 7.15;
+var tip = bill * 0.15;
+var total = bill + tip;
+
+// total is 24.5985
 
 #### Exercise 2:
 Use the adjective variables below to fill in the blanks and complete the following message.<br/>
@@ -112,7 +118,7 @@ Assign the resulting string to a variable called Quotes
  Write your javascript solution below
 ```js
 // your answer here
-```
+var quotes = "Success is no accident. It is Hard Work, Perseverance, Learning, Studying, Sacrifice and most of all, Love of what you are doing or learning to do."
 
 #### Exercise 3:
 Here is a message:<br/>
@@ -125,7 +131,9 @@ Here is a message:<br/>
  Write your javascript solution below
 ```js
 // your answer here
-```
+var name = "sara"
+var interest = "cats"
+var hobby = "movies"
 
 ## Conditionals
 
@@ -139,7 +147,16 @@ Hint: Use the % (modulo) operator to determine if a number is even or odd.
  Write your javascript solution below
 ```js
 // your answer here
-```
+int number;
+
+if(number % 2 === 0);
+{
+console.log("even");
+}
+else {
+console.log("odd");
+}
+
 
 #### Exercise2:
 Write a series of conditional statements that:
@@ -155,7 +172,31 @@ ex If musicians equals 3, then "trio" should be printed to the console.
  Write your javascript solution below
 ```js
 // your answer here
-```
+const musicians = 3;
+if musicians <= 0; 
+{ 
+console.log("not a group");
+}
+if musicians === 1;
+{
+console.log("solo");
+}
+if musicians === 2;
+{
+console.log("duet");
+}
+if musicians === 3;
+{ 
+console.log("trio");
+}
+if musicians === 4;
+{
+console.log("quartet");
+{
+if musicians > 4;
+{
+console.log("this is a large group");
+}
 
 
 #### BONUS
