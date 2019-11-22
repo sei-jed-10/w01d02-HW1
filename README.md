@@ -37,9 +37,11 @@ const num2 = 10;
  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
 // your solution here
-const num1 = 5;
-const num2 = 10;
-num3 = num1 * 3 
+let num1  =  5;
+  let num2  = 10;
+  let numb3  =  15;
+   
+   console.log("The sum of "+ " ", num1  +  "and" + " ",  num2 + "is"  +" ",  numb3);
 
 #### Exercise 3:
 Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
