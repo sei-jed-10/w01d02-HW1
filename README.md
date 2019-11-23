@@ -51,7 +51,7 @@ Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to comple
 #### Your solution here:
 ```js
 // your solution here 
-console.log(3 * 5)
+console.log("the sum of " + num3 + " and " + num4 " is " + num5)
 ```
 
 
@@ -92,10 +92,12 @@ h) true
  Write your javascript solution below
 ```js
 // your answer here
+
 var bill = 10.25 + 3.99 + 7.15
-var tip =(bill)*15/100
- total = (bill + tip) * 15%
- console.log((bill + tip) * 15/100) 
+var tip =(bill)* 0.15
+ total = (bill + tip) * 0.15
+ console.log(bill + tip * 0.15)
+ 
 
 #### Exercise 2:
 Use the adjective variables below to fill in the blanks and complete the following message.<br/>
@@ -119,12 +121,14 @@ Assign the resulting string to a variable called Quotes
  Write your javascript solution below
 ```js
 // your answer here
-var adjective1 = "Hard Work";
+var adjective1 = " Hard Work ";
 var adjective2 = "Perseverance";
-var adjective3 = "Learning";
-var adjective4 = "Studying";
-var adjective5 = "Sacrifice";
-var adjective6 = "Love";
+var adjective3 = " Learning ";
+var adjective4 = " Studying ";
+var adjective5 = " Sacrifice ";
+var adjective6 = " Love ";
+
+console.log("Success is no accident It is" +  adjective1 + adjective2  + adjective3  + adjective4 + adjective5 + "and most of all" + adjective6);
 
 #### Exercise 3:
 Here is a message:<br/>
@@ -137,7 +141,12 @@ Here is a message:<br/>
  Write your javascript solution below
 ```js
 // your answer here
-```
+
+var firstName = " Ahmad "
+var interest = " bikes "
+var hobby = " ride my bike "
+
+console.log("Hi, my name is" + firstName + "I love" + interest + ".In my spare time, I like to" + hobby);
 
 ## Conditionals
 
@@ -151,15 +160,13 @@ Hint: Use the % (modulo) operator to determine if a number is even or odd.
  Write your javascript solution below
 ```js
 // your answer here
-var number = 1
-if (number =1)
-{
-    console.log('number= even');
-}
-else if (number > 1)
-{
-    console.log('number=odd');
-}
+let result;
+ if (x % 3 === 0 && x % 5 === 0){
+    console.log("even");
+    } else if (x % 3 === 0);{
+    console.log("odd");
+    }
+    
 
 #### Exercise2:
 Write a series of conditional statements that:
@@ -175,43 +182,39 @@ ex If musicians equals 3, then "trio" should be printed to the console.
  Write your javascript solution below
 ```js
 // your answer here
-
-var musicians = 3
-
-if (result >= 0)
-  {
-    console.log ('result = not a group')
-    }else if (result >= 1)
-      {
-        console.log ('result = solo')
-                     }else if (result >= 2 )
-  {
-    console.log ('result = duet')
-  
- }else if (result >= 3) 
-   
-  {
-    console.log ('result = Trio')
-  
-}else if (result = 4) 
-  
-  
-    console.log ('result = quartet')
-    
-    
-    
-    console.log ('result = this is a large group" if musicians')
-
+let result;
+   if (result <= 0);{
+    console.log ("not a group")
+    } else if (result == 0);{
+     console.log("solo")
+      }else if (result == 2);{
+       console.log("duet")
+        }else if (result == 3);{ 
+         console.log("trio");{
+          }else if (result == 4);{
+          console.log("quarter");
+           }else if (result < 4);{
+           console.log("this is a large group")
+            }
 
 #### BONUS
 1. Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
 ```js
 // your answer here
-```
+for (let i = 0; i < 100; i += 1) {
+   // Do ten push-ups
+   console.log('Do another push-up!');
+}
+
+
 2. Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
 // your answer here
-```
+let i = 0;
+do {
+  i += 1;
+  console.log(i);
+} while (i > 0);
 
 # Additional Resources
 
