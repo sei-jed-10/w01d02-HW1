@@ -123,7 +123,14 @@ Assign the resulting string to a variable called Quotes
 #### Your solution here:
  Write your javascript solution below
 ```js
-// your answer here
+var adjective1 = "Hard Work";
+var adjective2 = "Perseverance";
+var adjective3 = "Learning";
+var adjective4 = "Studying";
+var adjective5 = "Sacrifice";
+var adjective6 = "Love";
+
+console.log('Success is no accident. it is ' + adjective1 + ', ' + adjective2 + ', ' + adjective3 + ', ' + adjective4 + ', ' + adjective5 +' and most of all, '+adjective6+ ' of what you are doing or learning to do.')
 ```
 
 #### Exercise 3:
