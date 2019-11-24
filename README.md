@@ -16,16 +16,17 @@ c = a;
 #### Your solution here:
 - What is `a`?
 ```
-a is Number
+
+ a is "bongos"
+ 
 
 - What is `b`?
 ```
-b is String
+b is true
 
 - What is `c`?
 ```
-c is Boolean
-
+ c is "bongos"
 
 #### Exercise 2:
 Output a console log `The sum of 5 and 10 is 15` where the values for 5 and 10 are saved to variables, and where 15 comes from those variables being summed.
@@ -37,10 +38,11 @@ const num2 = 10;
  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
 // your solution here
-let num1  =  5;
-  let num2  = 10;
-  let numb3  =  15;
-   
+const num1 = 5;
+const num2 = 10;
+const num3 = num1+num3 
+ 
+
    console.log("The sum of "+ " ", num1  +  "and" + " ",  num2 + "is"  +" ",  numb3);
 
 #### Exercise 3:
@@ -51,7 +53,7 @@ Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to comple
 #### Your solution here:
 ```js
 // your solution here 
-console.log("the sum of " + num3 + " and " + num4 " is " + num5)
+console.log(`The sum of ${num1} and ${num2} is ${num1 + num2}`)
 ```
 
 
@@ -182,20 +184,20 @@ ex If musicians equals 3, then "trio" should be printed to the console.
  Write your javascript solution below
 ```js
 // your answer here
-let result;
-   if (result <= 0);{
-    console.log ("not a group")
-    } else if (result == 0);{
-     console.log("solo")
-      }else if (result == 2);{
-       console.log("duet")
-        }else if (result == 3);{ 
-         console.log("trio");{
-          }else if (result == 4);{
-          console.log("quarter");
-           }else if (result < 4);{
-           console.log("this is a large group")
-            }
+
+var musicians = -1;
+if(musicians <= 0){
+    console.log("not a group");
+}else if(musicians === 1){
+    console.log("solo");
+}else if (musicians === 2){
+    console.log("duet");
+}else if (musicians === 3){
+    console.log("trio");
+}else if (musicians === 4){
+    console.log("quartet");
+}else if (musicians > 4){
+    console.log("this is a large group");
 
 #### BONUS
 1. Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
