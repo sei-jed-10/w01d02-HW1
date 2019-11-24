@@ -33,11 +33,14 @@ Output a console log `The sum of 5 and 10 is 15` where the values for 5 and 10 a
 const num1 = 5;
 const num2 = 10;
 ```
+
 #### Your solution here:
  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
-  sum = num1 + num2 + num3
+
+  const num3 = num1+num3
 ```
+
 
 #### Exercise 3:
 Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
@@ -47,8 +50,7 @@ Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to comple
 #### Your solution here:
 ```js
 // your solution here 
-console.log('The sum of '+num1+' and '+num2+' is '+num3)
-```
+console.log('The sum of ${num1} and ${num2} is ${num1 + num2}')
 
 
 ## Comparisons
@@ -88,8 +90,10 @@ h) 'fales'
  Write your javascript solution below
 ```js
 // your answer here
-var total =bill+tip;
-console.log (total);
+var bill = 10.25 + 3.99 + 7.15;
+var tip = bill * 0.15;
+var total = bill + tip;
+console.log("$"+ total.toFixed(2))
 ```
 
 #### Exercise 2:
@@ -114,7 +118,8 @@ Assign the resulting string to a variable called Quotes
  Write your javascript solution below
 ```js
 // your answer here
-var quotes ="sucess is no accident. It is"+adjective1+", "+adjective2+", "+adjective3+" "+adjective4+", "+adjective5 +" and most of all,"+adjective6+" of what you are doing or learning to do."
+var quotes = "Success is no accident. It is " + adjective1 + ", " + adjective2 + ", " + adjective3 + ", "+ adjective4 +", " + adjective5 +", " +"and most of all, " + adjective6 + " of what you are doing or learning to do.";
+console.log(quotes);
 
 #### Exercise 3:
 Here is a message:<br/>
@@ -126,12 +131,12 @@ Here is a message:<br/>
 #### Your solution here:
  Write your javascript solution below
 
-var firstName = "sara";
+var firstName = "Sara";
 var interest = "cats";
-var hobby ="I like to watch movies"
+var hobby = "watch movies";
 
-var awesomeMessage= "Hi, my name is" + firstName + ". I love" + interest + ".In my spare time, I like to " + hobby + "." ;
-console.log (awesomeMessage)
+var message = "Hi, my name is "+ firstName + "." + " I love " + interest + "." +  " In my spare time, I like to "+ hobby + ".";
+console.log(message);
 
 ## Conditionals
 
@@ -145,12 +150,12 @@ Hint: Use the % (modulo) operator to determine if a number is even or odd.
  Write your javascript solution below
 ```js
 // your answer here
-var num =30;
-if (num%2===0){
- console.log("even")
-}
-els {
-    consle.log("odd")
+var number =5;
+
+if (number% 2 === 0) {
+    console.log("even")
+} else {
+ console.log("odd")
 }
 
 
@@ -168,6 +173,21 @@ ex If musicians equals 3, then "trio" should be printed to the console.
  Write your javascript solution below
 ```js
 // your answer here
+
+var musicians = -1;
+
+if(musicians <= 0){
+    console.log("not a group");
+}else if(musicians === 1){
+    console.log("solo");
+}else if (musicians === 2){
+    console.log("duet");
+}else if (musicians === 3){
+    console.log("trio");
+}else if (musicians === 4){
+    console.log("quartet");
+}else if (musicians > 4){
+    console.log("this is a large group");
 
 ```
 
