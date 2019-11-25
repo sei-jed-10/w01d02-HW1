@@ -268,11 +268,20 @@ else{
 
 
 #### BONUS
-1. Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
+1. Research a [loop]
+JavaScript loops are used to repeatedly run a block of code - until a certain condition is met. When developers talk about iteration or iterating over, say, an array, it is the same as looping. JavaScript offers several options to repeatedly run a block of code, including while, do while, for and for-in.
+(https://javascript.info/while-for) 
+(https://www.w3schools.com/js/js_loop_for.asp)
 ```js
 // your answer here
+
+
 ```
-2. Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
+2. Research a [function]
+A JavaScript function is a block of code designed to perform a particular task. A JavaScript function is executed when "something" invokes it (calls it).
+
+(https://www.w3schools.com/js/js_function_definition.asp) 
+(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions)
 ```js
 // your answer here
 ```
